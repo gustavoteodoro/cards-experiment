@@ -1,7 +1,7 @@
 <template>
   <div :style="containerStyles">
     <span>{{ `${value.charAt(0)}` }}</span>
-    <img :alt="suit" v-bind:src="require(`../../../assets/${suit.toLowerCase()}.png`)">
+    <img :alt="suit" v-bind:src="suit && require(`../../../assets/${suit.toLowerCase()}.png`)">
   </div>
 </template>
 

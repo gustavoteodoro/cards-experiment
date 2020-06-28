@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardCode renders correctly 2 Spades 1`] = `
+<div
+  style="transform: rotate(0deg);"
+>
+  <span>
+    2
+  </span>
+   
+  <img />
+</div>
+`;
+
+exports[`CardCode renders correctly King Diamonds 1`] = `
+<div
+  style="transform: rotate(0deg);"
+>
+  <span>
+    K
+  </span>
+   
+  <img />
+</div>
+`;

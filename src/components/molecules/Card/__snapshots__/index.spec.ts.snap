@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly King 1`] = `
+<div
+  class="container"
+>
+  <div
+    style="transform: rotate(0deg);"
+  >
+    <span>
+      K
+    </span>
+     
+    <img />
+  </div>
+   
+  <div
+    style="transform: rotate(180deg);"
+  >
+    <span>
+      K
+    </span>
+     
+    <img />
+  </div>
+</div>
+`;

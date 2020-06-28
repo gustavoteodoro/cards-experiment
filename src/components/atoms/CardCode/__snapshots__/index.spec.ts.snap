@@ -12,6 +12,18 @@ exports[`CardCode renders correctly 2 Spades 1`] = `
 </div>
 `;
 
+exports[`CardCode renders correctly King 1`] = `
+<div
+  style="transform: rotate(0deg);"
+>
+  <span>
+    K
+  </span>
+   
+  <img />
+</div>
+`;
+
 exports[`CardCode renders correctly King Diamonds 1`] = `
 <div
   style="transform: rotate(0deg);"

@@ -1,24 +1,31 @@
 # cards-experiment
 
-## Project setup
+### Setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Run
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Storybook
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm run storybook
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Test
+```
+npm test
+```
+
+## To do
+- Validate the form
+- Layout pixel perfect
+- Show all *Full House Combos* availables
+- Remove warning from *Text-input* atom
+- Setup Typescript correctly for VUE.js
+- Clean ignoreCodes list on package json
+- Write tests for all utils, services and store files
+- End to end test with Cypress

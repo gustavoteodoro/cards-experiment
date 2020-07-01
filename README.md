@@ -1,5 +1,10 @@
 # cards-experiment
 
+Created using:
+- Node: v12.18.1
+- NPM: 6.14.5
+
+
 ### Setup
 ```
 npm install

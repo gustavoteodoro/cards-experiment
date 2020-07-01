@@ -11,6 +11,21 @@
     "build-storybook": "build-storybook"
   },
   "jest": {
+    "globals": {
+      "ts-jest": {
+        "diagnostics": {
+          "ignoreCodes": [
+            "TS2741",
+            "TS2741",
+            "TS2532",
+            "TS7031",
+            "TS7006",
+            "TS7005",
+            "TS7034"
+          ]
+        }
+      }
+    },
     "moduleFileExtensions": [
       "js",
       "json",
@@ -30,7 +45,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4",
+    "vuex": "^3.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.10.3",
